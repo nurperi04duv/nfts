@@ -1,0 +1,116 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  #hero .hero--general {
+    flex-direction: column;
+  }
+  #hero .hero--general--ti--see {
+    margin-bottom: 150px;
+  }
+  #create .create--general--block {
+    width: 1136px;
+  }
+  #top .top--general--work {
+    flex-wrap: wrap;
+  }
+  #top .top--general--work--block {
+    margin-bottom: 50px;
+  }
+  #our .our--general {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1024px) {
+  #create .create--general--block {
+    width: 1006px;
+    margin-left: -40px;
+  }
+  #footer .footer--general {
+    flex-wrap: wrap;
+  }
+  #footer .footer--general--work {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 992px) {
+  #top .top--general--work {
+    margin-left: 240px;
+  }
+}
+@media (max-width: 768px) {
+  #header .header--general--items {
+    display: none;
+  }
+  #header .header--general {
+    padding: 20px;
+  }
+  #header .header--general--see {
+    display: none;
+  }
+  .header--general--ti {
+    padding-right: 509px;
+  }
+  #header .header--general .hamburger-menu {
+    display: block;
+  }
+  #top .top--general--work {
+    margin-left: 125px;
+  }
+  #create .create--general--block {
+    flex-direction: column;
+  }
+  #create .create--general--block {
+    margin-left: -175px;
+  }
+  #create .create--general--block--items {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 576px) {
+  #learn .learn--general--items h1 {
+    font-size: 22px;
+  }
+  #learn .learn--general--items p {
+    padding-right: 30px;
+  }
+  #create .create--general h1 {
+    font-size: 30px;
+  }
+  #create .create--general--block {
+    flex-direction: column;
+  }
+  #create .create--general--block--items {
+    margin-top: 50px;
+    margin-right: 403px;
+  }
+  #top .top--general h1 {
+    font-size: 30px;
+  }
+  #top .top--general--work {
+    margin-left: 39px;
+  }
+  #seller h1 {
+    font-size: 30px;
+  }
+  #our .h1 {
+    font-size: 30px;
+  }
+  #footer .footer--general {
+    flex-direction: column;
+  }
+  #footer .footer--general--items {
+    padding-right: 137px;
+  }
+  #footer .footer--general--go {
+    padding-right: 167px;
+    padding-top: 30px;
+  }
+  #header .header--general--ti {
+    padding-right: 280px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
